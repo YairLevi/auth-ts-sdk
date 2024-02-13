@@ -1,0 +1,20 @@
+{
+  "name": "npm-package-name",
+  "version": "0.0.0",
+  "description": "This is where your description of the package goes.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "npm run build && changeset publish",
+    "lint": "tsc",
+    "test": "test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
