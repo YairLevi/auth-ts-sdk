@@ -1,4 +1,4 @@
-export type Model = {
+type Model = {
   id: number
   createdAt: Date
   updatedAt: Date
@@ -19,11 +19,3 @@ export type User = Model & {
 export type Provider =
   | "google"
   | "github"
-
-export type Exports = {
-  user: User,
-  isSignedIn: boolean
-  login: (email: string, password: string) => void
-  loginWithProvider: (provider: Provider) => void
-  logout: () => void
-}
