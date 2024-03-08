@@ -1,5 +1,11 @@
 # auth-ts-sdk
 
+## 0.1.1
+
+### Patch Changes
+
+- 50e415e: ignoring files using npmignore
+
 ## 0.1.0
 
 ### Minor Changes
