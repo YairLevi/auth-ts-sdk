@@ -1,5 +1,11 @@
 # auth-ts-sdk
 
+## 0.1.2
+
+### Patch Changes
+
+- 8b47c73: fix some minor detail, string instead of number in ID
+
 ## 0.1.1
 
 ### Patch Changes
