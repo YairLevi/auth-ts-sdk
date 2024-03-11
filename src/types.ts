@@ -1,12 +1,11 @@
 type Model = {
-  id: number
+  id: string
   createdAt: Date
   updatedAt: Date
   deletedAt: Date
 }
 
 export type User = Model & {
-  id: string
   firstName: string
   lastName: string
   email: string
