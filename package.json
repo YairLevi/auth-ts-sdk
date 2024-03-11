@@ -1,7 +1,7 @@
 {
   "name": "auth-ts-sdk",
   "description": "This is where your description of the package goes.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
